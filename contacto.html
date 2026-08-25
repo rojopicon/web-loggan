@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Loggant</title>
+  <meta name="description" content="Cuéntanos cómo trabaja tu empresa. Consultoría de procesos, tecnología e inteligencia artificial.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Loggant — Inicio">
+        <svg class="logo-symbol" viewBox="0 0 50 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M5 53 L25 3 L36 29" stroke="currentColor" stroke-width="7" stroke-linecap="butt" stroke-linejoin="miter"/>
+          <line x1="39" y1="36" x2="46" y2="53" stroke="#5B8DB8" stroke-width="7" stroke-linecap="butt"/>
+        </svg>
+        <span class="logo-wordmark">Loggant</span>
+      </a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" role="navigation">
+        <a href="index.html" class="nav__link">Inicio</a>
+        <a href="metodo.html" class="nav__link">Método</a>
+        <a href="servicios.html" class="nav__link">Servicios</a>
+        <a href="sobre-mi.html" class="nav__link">Sobre mí</a>
+        <a href="contacto.html" class="nav__link nav__link--active">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Hablemos</p>
+        <h1>Cuéntanos cómo trabaja tu empresa</h1>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <form class="form" action="#" method="POST">
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="nombre">Nombre</label>
+              <input class="form__input" type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="empresa">Empresa</label>
+              <input class="form__input" type="text" id="empresa" name="empresa">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label class="form__label" for="email">Email</label>
+              <input class="form__input" type="email" id="email" name="email" required>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="telefono">Teléfono</label>
+              <input class="form__input" type="tel" id="telefono" name="telefono">
+            </div>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="mensaje">Cuéntanos brevemente qué te trae por aquí</label>
+            <textarea class="form__textarea" id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn btn--primary">Enviar <span class="arrow">→</span></button>
+          </div>
+        </form>
+
+        <!-- Contacto directo -->
+        <div class="contact-direct">
+          <h2>Contacto directo</h2>
+          <p>Email: <a href="mailto:joseantonio@loggant.com">joseantonio@loggant.com</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container">
+        <div class="content-block mb-md">
+          <p class="eyebrow">Preguntas frecuentes</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3>¿Cómo empieza el proceso?</h3>
+            <p>Siempre por el Diagnóstico — documentamos y estructuramos cómo trabaja tu empresa antes de hablar de ninguna tecnología concreta.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Qué pasa si después del Diagnóstico decido no seguir con ninguna línea técnica?</h3>
+            <p>Los protocolos documentados son tuyos igualmente, los uses después con nosotros o no.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Puedo contratar varias líneas técnicas a la vez?</h3>
+            <p>Sí, se pueden combinar según lo que necesite tu empresa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="index.html" class="logo" aria-label="Loggant — Inicio">
+          <svg class="logo-symbol" viewBox="0 0 50 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 53 L25 3 L36 29" stroke="currentColor" stroke-width="7" stroke-linecap="butt" stroke-linejoin="miter"/>
+            <line x1="39" y1="36" x2="46" y2="53" stroke="#5B8DB8" stroke-width="7" stroke-linecap="butt"/>
+          </svg>
+          <span class="logo-wordmark">Loggant</span>
+        </a>
+        <p class="footer__copy mt-sm">Consultoría de procesos · Tecnología · IA</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="metodo.html">Método</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
