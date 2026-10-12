@@ -550,9 +550,15 @@ strong {
 /* --- Contact Actions --- */
 .contact-actions {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 1rem;
-  align-items: flex-start;
+  align-items: stretch;
+}
+
+.contact-actions .btn {
+  flex: 1;
+  justify-content: center;
+  min-width: 200px;
 }
 
 .btn--lg {
